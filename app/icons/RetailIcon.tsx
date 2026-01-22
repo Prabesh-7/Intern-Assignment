@@ -1,0 +1,14 @@
+import React from 'react'
+
+export default function RetailIcon() {
+  return (
+    <div>
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" rx="4" fill="#CF3E81"/>
+<path d="M26 18H14C13.4696 18 12.9609 18.2107 12.5858 18.5858C12.2107 18.9609 12 19.4696 12 20V27H28V20C28 19.4696 27.7893 18.9609 27.4142 18.5858C27.0391 18.2107 26.5304 18 26 18ZM26 22H22V20H26M25 17H15V12H25V17Z" fill="white"/>
+</svg>
+
+      
+    </div>
+  )
+}

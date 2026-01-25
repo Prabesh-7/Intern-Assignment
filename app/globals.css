@@ -54,6 +54,13 @@
   --color-logo-text : #4A4A4A;
 
 
+
+  /* Analytics Section */
+  --color-analytics-text : #FFFFFF;
+  --color-analytics-bg : #14162F;
+
+  --color-card-bg : #F3F5F7;
+
   /* button */
   --color-primary: #3A3F87;
   
@@ -142,3 +149,4 @@
     @apply bg-background text-foreground;
   }
 }
+

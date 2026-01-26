@@ -17,7 +17,7 @@ export default function HeroSection() {
     <section>
       <div className="container mx-auto">
         {/* Header Section */}
-        <div className="flex justify-center flex-col items-center gap-4 mb-10">
+        <div className="flex justify-center flex-col items-center gap-4 mb-10 mt-20">
           <h1 className="text-5xl font-semibold  text-center">
             Run your whole eCommerce
             <br />

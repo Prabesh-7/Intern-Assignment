@@ -1,78 +1,3 @@
-// import Link from 'next/link';
-// import { Button } from '@/components/ui/button';
-// import { ChevronDown } from 'lucide-react';
-// import { ArrowRight } from 'lucide-react';
-// import { LogIn } from 'lucide-react';
-
-// export default function Navbar() {
-//   return (
-//     <nav className=" container mx-auto py-4 px-6 sticky top-0 bg-white">
-//       <div className="max-w-7xl mx-auto flex items-center justify-between">
-//         {/* Logo Section */}
-//         <div className="flex items-center gap-2">
-//           <div className="w-6 h-6 bg-indigo-600 flex items-center justify-center">
-//           </div>
-//           <span className="text-logo-text font-medium">Logo goes Here</span>
-//         </div>
-
-//         {/* Navigation Links */}
-//         <ul className="flex items-center gap-8">
-//           <li>
-//             <Link href="/" className="text-gray-700">
-//               Home
-//             </Link>
-//           </li>
-          
-//           <li>
-//             <Link href="#" className="flex items-center gap-1 text-navbar-text">
-//               Features
-//               <ChevronDown className="w-4 h-4" />
-//             </Link>
-//           </li>
-          
-//           <li>
-//             <Link href="#" className="text-navbar-text">
-//               Pricing
-//             </Link>
-//           </li>
-          
-//           <li>
-//             <Link href="#" className="text-navbar-text">
-//               Solutions
-//             </Link>
-//           </li>
-          
-//           <li>
-//             <Link href="#" className="flex items-center gap-1 text-navbar-text">
-//               Resources
-//               <ChevronDown className="w-4 h-4" />
-//             </Link>
-//           </li>
-          
-//           <li>
-//             <Link href="#" className="text-navbar-text">
-//               Contact
-//             </Link>
-//           </li>
-//         </ul>
-
-//         {/* Auth Buttons */}
-//         <div className="flex items-center gap-3">
-//           <Button variant="default" className="bg-primary text-white">
-//           <LogIn/>Login
-//           </Button>
-          
-//           <Button variant="outline" className="bg-white border-gray-300 text-gray-700">
-//             Register<ArrowRight/>
-//           </Button>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// }
-
-
-
 
 "use client";
 
@@ -91,7 +16,9 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="container mx-auto py-4  sticky top-0 bg-white z-50">
+
+    <nav className="sticky top-0 z-50 bg-white">
+      <div className="container mx-auto py-4  sticky top-0 z-50">
       <div className="  flex items-center justify-between">
 
         {/* Logo */}
@@ -163,6 +90,9 @@ export default function Navbar() {
           </div>
         </div>
       )}
+    </div>
     </nav>
+
+
   );
 }

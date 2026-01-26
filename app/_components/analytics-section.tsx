@@ -35,7 +35,7 @@ export default function AnalyticsDashboardSection() {
                 alt="Total Active Customer Dashboard"
                 width={400}
                 height={250}
-                className=" object-contain"
+                className=" object-contain h-60"
               />
             </div>
             <h3 className="text-xl font-semibold text-analytics-text">
@@ -55,7 +55,7 @@ export default function AnalyticsDashboardSection() {
                 alt="Total Active Customer Dashboard"
                 width={400}
                 height={250}
-                className="object-contain"
+                className="object-contain h-60"
               />
             </div>
             <h3 className="text-xl font-semibold text-analytics-text">
@@ -75,7 +75,7 @@ export default function AnalyticsDashboardSection() {
                 alt="Total Active Customer Dashboard"
                 width={400}
                 height={250}
-                className=" object-contain"
+                className=" object-contain h-60"
               />
             </div>
             <h3 className="text-xl font-semibold text-analytics-text">

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import forSellersCards from "../data/forSellersCards";
 import { Button } from "@/components/ui/button";
-import { MoveUpRight } from "lucide-react";
+import { ArrowUpRight, ArrowDownRight } from "lucide-react";
 
 export default function ForSellers() {
   const [ReadIndex, setReadIndex] = useState<number | null>(null);
@@ -18,7 +18,7 @@ export default function ForSellers() {
             of Seller
           </h1>
 
-          <p className=" text-gray-600 text-lg pr-80">
+          <p className=" text-gray-600 text-lg pr-20">
             Whether you sell online, in-store, or across multiple channels, our<br/>
             platform adapts to the way you run your business.
           </p>
@@ -27,7 +27,7 @@ export default function ForSellers() {
         {/* BOTTOM ROW */}
         <div className="flex gap-12">
           {/* LEFT IMAGE */}
-          <div className="flex-shrink-0">
+          <div className="flex flex-shrink-0">
             <Image
               src="/images/Seller.jpg"
               alt="Seller"
@@ -42,7 +42,7 @@ export default function ForSellers() {
             {forSellersCards.map((card, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-md transition"
+                className="bg-white p-6 rounded-lg border border-gray-200 "
               >
                 <h3 className="text-lg font-semibold mb-2 flex gap-4 ">
                   <card.icon /> {card.title}
@@ -54,14 +54,34 @@ export default function ForSellers() {
                   {card.description}
                 </p>
 
+
+                {ReadIndex === index ? (
                 <Button
-                  variant="link"
-                  className="text-logo-text p-0"
+                  className="flex justify-start items-center gap-2 font-light cursor-pointer"
+                  onClick={() => setReadIndex(null)}
+                 
+                >
+                  Show Less
+                  <ArrowDownRight size={18} />
+                </Button>
+              ) : (
+                <Button
+           
+                  className="flex justify-start items-center gap-2 font-light cursor-pointer"
                   onClick={() => setReadIndex(index)}
                 >
                   Read More
-                  <MoveUpRight />
+                  <ArrowUpRight size={18} />
                 </Button>
+
+              )}
+
+
+             
+
+
+
+                
               </div>
             ))}
           </div>

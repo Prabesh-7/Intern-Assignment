@@ -4,11 +4,11 @@ import Image from "next/image";
 
 export default function () {
   return (
-    <section className="mt-28">
+    <section className=" bg-[#F6F6F6]">
       <div className="container mx-auto ">
         {/* Header */}
         <div className="flex justify-center">
-          <h1 className="w-fit px-6 py-2 rounded-full bg-gray-100 text-sm font-medium">
+          <h1 className="w-fit px-6 py-2 rounded-full bg-white text-sm font-medium mt-25">
             Integratios & Workflow
           </h1>
         </div>
@@ -32,11 +32,11 @@ export default function () {
         </div>
 
         {/* RIGHT CARDS */}
-        <div className="grid grid-cols-5 gap-6 mt-10 overflow-x-auto">
+        <div className="grid grid-cols-5 gap-6 mt-10 overflow-x-auto ">
           {Integration.map((card, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-md transition"
+              className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-md transition mb-25"
             >
               <div className="h-10 w-10 bg-gray-50 flex items-center justify-center rounded-md mb-4 border">
                 <Image

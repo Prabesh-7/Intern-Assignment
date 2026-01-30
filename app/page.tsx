@@ -8,6 +8,7 @@ import IntegrationsSection from "./_components/integrations-section";
 import TestimonialSection from "./_components/testimonial-section";
 import FaqSection from "./_components/faq-section";
 import SubscribeSection from "./_components/subscribe-section";
+import Footer from "./_components/footer";
 
 export default function HomePage() {
   return (
@@ -25,6 +26,7 @@ export default function HomePage() {
         <FaqSection />
         <SubscribeSection />
       </main>
+      <Footer/>
     </>
   );
 }

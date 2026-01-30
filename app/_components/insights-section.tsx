@@ -1,5 +1,4 @@
 import React from "react";
-import { Integration } from "../data/Integration";
 import Image from "next/image";
 import { Blog } from "../data/Blog";
 

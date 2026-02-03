@@ -2,6 +2,7 @@
 export const Integration = [
   {
     
+    
     title: 'DHL',
     description: 'Fast global shipping with real-time tracking and reliable delivery services.',
     logo: '/images/DHL.png'

@@ -50,6 +50,9 @@
   --radius-4xl: calc(var(--radius) + 16px);
 }
 @theme{
+
+
+  --color-primary : #F6F6F6;
   --color-navbar-text :  #2E2E2E;
   --color-logo-text : #4A4A4A;
 
@@ -62,7 +65,7 @@
   --color-card-bg : #F3F5F7;
 
   /* button */
-  --color-primary: #3A3F87;
+  --color-button-primary: #3A3F87;
   
 }
 

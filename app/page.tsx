@@ -14,13 +14,12 @@ export default function HomePage() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="overflow-x-hidden">
         <HeroSection />
         <ForSellersSection />
         <FeaturesSection />
         <AnalyticsSection />
         <IntegrationsSection />
-
         <TestimonialSection />
         <InsightsSection />
         <FaqSection />

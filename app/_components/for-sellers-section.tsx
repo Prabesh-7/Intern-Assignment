@@ -9,12 +9,12 @@ import { ArrowUpRight, ArrowDownRight } from "lucide-react";
 export default function ForSellers() {
   const [ReadIndex, setReadIndex] = useState<number | null>(null);
   return (
-    <section className="bg-[#F6F6F6]  py-6 lg:py-20">
+    <section className="bg-secondary  py-6 lg:py-20">
       <div className="container mx-auto px-4">
         {/* TOP ROW */}
         <div className="flex flex-col lg:flex-row lg:justify-between mb-8 lg:mb-16">
           <h1 className="text-[20px] lg:text-5xl font-semibold leading-tight mb-3 lg:mb-0 max-lg:text-center">
-            Built for Every Type 
+            Built for Every Type  {" "}
             <span className="lg:block inline">
              of Seller
             </span>

@@ -57,18 +57,22 @@ export default function TestimonialSection() {
             <div className="flex gap-4">
               <Button 
                 onClick={handlePrevious}
-                className="rounded-full w-12 h-12 p-0"
-              >
+  className="rounded-full w-12 h-12 p-0 bg-black hover:bg-gray-800"              >
                 <MoveLeft size={20} />
               </Button>
               <Button 
                 onClick={handleNext}
-                className="rounded-full w-12 h-12 p-0"
+
+                 className="rounded-full w-12 h-12 p-0 bg-indigo-600 hover:bg-indigo-700"
               >
                 <MoveRight size={20} />
               </Button>
             </div>
           </div>
+
+
+
+          {/* mob */}
 
          
           <div className="flex lg:hidden flex-col items-center text-center px-4">
@@ -78,7 +82,7 @@ export default function TestimonialSection() {
             </div>
 
       
-            <h1 className="font-bold text-[22px] leading-tight mb-3">
+            <h1 className="font-semibold text-[20px] leading-tight mb-3">
               Loved by Businesses of All Sizes
             </h1>
 

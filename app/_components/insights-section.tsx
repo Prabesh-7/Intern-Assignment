@@ -3,7 +3,7 @@ import { Blog } from "../data/Blog";
 
 export default function () {
   return (
-    <section className=" bg-[#F6F6F6] ">
+    <section className=" bg-bg-secondary ">
       <div className="container mx-auto mt-12 lg:mt-24  ">
         {/* Header */}
         <div className="flex justify-center ">

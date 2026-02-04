@@ -60,7 +60,9 @@ export default function Navbar() {
 
           {/* Auth Buttons (desktop) */}
           <div className="hidden lg:flex items-center gap-3">
-            <Button className="bg-primary text-white">
+            <Button 
+            variant = "default"
+            className="bg-button-primary text-white">
               <LogIn className="mr-1" /> Login
             </Button>
             <Button
@@ -100,7 +102,9 @@ export default function Navbar() {
             </Link>
 
             <div className="flex flex-row gap-2 pt-2">
-              <Button className="bg-primary text-white">
+              <Button
+              
+              className="bg-button-primary text-white">
                 <LogIn className="mr-1" /> Login
               </Button>
               <Button

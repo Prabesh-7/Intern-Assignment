@@ -47,12 +47,12 @@ export default function AnalyticsDashboardSection() {
   ]
 
   return (
-    <section className="bg-[#1a1d2e] py-20">
+    <section className="bg-[#1a1d2e] lg:py-20 py-6">
       <div className="container mx-auto px-4">
         {/* Header Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
           <div>
-            <h2 className="text-white font-bold text-3xl lg:text-4xl xl:text-5xl leading-tight text-center lg:text-left">
+            <h2 className="text-white font-bold text-[20px] lg:text-[56px] leading-tight text-center lg:text-left">
               Get a Clear, Real-Time View of Your Business
             </h2>
           </div>

@@ -11,7 +11,7 @@ import { ChevronDownIcon, ArrowUpRight, ArrowDownRight } from "lucide-react";
 
 export default function FaqSection() {
   return (
-    <section className="py-8 lg:py-16 bg-gray-50">
+    <section className="py-8 lg:py-16 bg-bg-primary">
       <div className="container mx-auto px-4 lg:px-0">
         {/* Header */}
         <div className="flex justify-center">
@@ -35,7 +35,7 @@ export default function FaqSection() {
               >
                 <AccordionTrigger className="hover:no-underline py-4 lg:py-5">
                   <div className="flex w-full items-center justify-between">
-                    <span className="text-left font-medium text-sm lg:text-base">
+                    <span className="text-left font-semibold text-[18px] lg:text-base">
                       {faq.question}
                     </span>
 
@@ -47,7 +47,7 @@ export default function FaqSection() {
                   </div>
                 </AccordionTrigger>
 
-                <AccordionContent className="text-gray-600 text-xs lg:text-sm pb-4 lg:pb-5">
+                <AccordionContent className=" text-gray-600 text-xs lg:text-sm pb-4 lg:pb-5 ">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
@@ -56,7 +56,7 @@ export default function FaqSection() {
         </div>
 
         {/* Contact Section */}
-        <div className="flex flex-col gap-2 justify-center items-center px-4 lg:px-0">
+        <div className="mt-2 flex flex-col gap-2 justify-center items-center px-4 lg:px-0">
           <h3 className="text-[20px] lg:text-[24px] font-semibold leading-[160%] tracking-normal text-center">
             Still have a questions?
           </h3>

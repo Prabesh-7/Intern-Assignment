@@ -15,7 +15,7 @@ export const Blog = [
   
   },
 
-    {
+  {
     
     title: '7 Ways to Improve Your Order Processing \nSpeed',
     description: 'Discover easy workflow improvements that help you fulfill orders faster, reduce delays, and deliver a better customer experience.',

@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 
 
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -52,7 +53,17 @@
 @theme{
 
 
-  --color-primary : #F6F6F6;
+
+
+  --color-bg-primary : #FFFFFF;
+  --color-bg-secondary : #F6F6F6;
+
+
+  --color-primary-text : #4A4A4A;
+  --color-secondary-text : #1A1A1A;
+
+
+  /* --color-primary : #F6F6F6; */
   --color-navbar-text :  #2E2E2E;
   --color-logo-text : #4A4A4A;
 
@@ -70,6 +81,9 @@
 }
 
 :root {
+
+
+
 
 
   /* navbar */
@@ -151,5 +165,15 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@utility scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 

@@ -23,7 +23,7 @@ export default function Newsletter() {
     }, 2000);
   }
   return (
-    <section className="py-12">
+    <section className="py-12 bg-secondary">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-16">
           <div className="flex-1">

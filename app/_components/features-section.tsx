@@ -14,7 +14,7 @@ export default function KeyFeaturesSection() {
       <div className="container mx-auto px-4 lg:px-0">
         {/* Header */}
         <div className="flex justify-center">
-          <h1 className="w-fit px-6 py-2 rounded-full bg-gray-100 text-sm font-medium">
+          <h1 className="w-fit px-6 py-2 rounded-full bg-bg-secondary text-sm font-medium">
             Key Features
           </h1>
         </div>
@@ -45,8 +45,8 @@ export default function KeyFeaturesSection() {
                     onClick={() => setActiveIndex(index)}
                     className={`px-4 py-2.5 rounded-md text-sm font-medium transition-colors whitespace-nowrap ${
                       activeIndex === index
-                        ? "bg-[#1e3a8a] text-white"
-                        : "bg-gray-100 text-gray-600"
+                        ? "bg-bg-secondary text-button-primary"
+                        : "bg-bg-secondary text-primary-text"
                     }`}
                   >
                     {feature.title}
@@ -65,8 +65,8 @@ export default function KeyFeaturesSection() {
                     onClick={() => setActiveIndex(index)}
                     className={`pb-2 font-medium transition-colors ${
                       activeIndex === index
-                        ? "text-primary border-b-2 border-primary"
-                        : "text-gray-600 hover:text-gray-900"
+                        ? "text-button-primary border-b-2 border-button-primary"
+                        : "text-secondary-text"
                     }`}
                   >
                     {feature.title}
@@ -78,12 +78,12 @@ export default function KeyFeaturesSection() {
         </div>
 
         {/* Feature Content */}
-        <div className="mt-8 lg:mt-12 px-4 lg:px-0">
+        <div className="mt-8 lg:mt-12 px-1 lg:px-0">
           {/* Mobile Layout */}
           <div className="lg:hidden">
-            <div className="bg-[#FEF5EC] rounded-2xl overflow-hidden">
+            <div className="bg-[#FEF5EC] rounded-2xl overflow-hidden ">
               <div className="p-6 space-y-4">
-                <h2 className="text-2xl font-semibold font-[Google_Sans_Flex] leading-tight">
+                <h2 className="text-2xl font-semibold  leading-tight">
                   {activeFeature.title}
                 </h2>
 
@@ -108,7 +108,7 @@ export default function KeyFeaturesSection() {
 
                 <Button
                   variant="default"
-                  className="bg-primary text-white h-12 px-8 w-full mt-2"
+                  className="bg-button-primary text-white h-12 px-8 w-full mt-2"
                 >
                   {activeFeature.buttonText}
                 </Button>
@@ -117,7 +117,7 @@ export default function KeyFeaturesSection() {
           </div>
 
           {/* Desktop Layout */}
-          <div className="hidden lg:flex justify-center">
+          <div className="hidden lg:flex  overflow-y-hidden scrollbar-hidden">
             <div className="flex">
               {/* Left Content */}
               <div className="w-133 bg-[#FEF5EC] p-12 flex flex-col justify-center">
@@ -136,7 +136,7 @@ export default function KeyFeaturesSection() {
 
                   <Button
                     variant="default"
-                    className="bg-primary text-white h-12 px-8"
+                    className="bg-button-primary text-white h-12 px-8"
                   >
                     {activeFeature.buttonText}
                   </Button>
@@ -160,6 +160,3 @@ export default function KeyFeaturesSection() {
     </section>
   );
 }
-
-
-

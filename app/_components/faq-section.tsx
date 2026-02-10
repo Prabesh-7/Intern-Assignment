@@ -11,7 +11,7 @@ import { ChevronDownIcon, ArrowUpRight, ArrowDownRight } from "lucide-react";
 
 export default function FaqSection() {
   return (
-    <section className="py-8 lg:py-16 bg-bg-primary">
+    <section className="py-8 lg:py-16 bg- bg-white">
       <div className="container mx-auto px-4 lg:px-0">
         {/* Header */}
         <div className="flex justify-center">
@@ -64,10 +64,14 @@ export default function FaqSection() {
           <p className="text-[14px] lg:text-[16px] font-normal leading-[160%] tracking-normal text-center">
             If you cannot find answer to your question in our FAQ, you can
             <br className="hidden lg:block" />
-            always <span className="text-blue-600">contact us</span>. We will answer to you shortly
+            always <span className="text-blue-600">contact us</span>. We will
+            answer to you shortly
           </p>
 
-          <Button className="mt-2 px-8 py-6 text-sm lg:text-base w-full lg:w-auto" variant="default">
+          <Button
+            className="mt-2 px-8 py-6 text-sm lg:text-base w-full lg:w-auto"
+            variant="default"
+          >
             Contact Us
           </Button>
         </div>

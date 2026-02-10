@@ -2,9 +2,11 @@ import React from "react";
 import Navbar from "../_components/navbar";
 import SubscribeSection from "../_components/subscribe-section";
 import Footer from "../_components/footer";
-import Hero from "./_components/hero";
-import FeatureOverview from "./_components/services";
-import Trust from "./_components/Trust";
+import Hero from "../faq/hero";
+import Faq from "../faq/faq";
+import FeatureOverview from "../features/_components/services";
+
+
 
 function page() {
   return (
@@ -12,8 +14,9 @@ function page() {
       <Navbar />
       <main>
         <Hero />
-        <FeatureOverview />
-        <Trust />
+        <Faq />
+      
+       
 
         <SubscribeSection />
       </main>

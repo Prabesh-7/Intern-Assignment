@@ -28,7 +28,7 @@ const PARTNER_LOGOS = [
 
 export default function HeroSection() {
   return (
-    <section className="bg-bg-primary">
+    <section className="bg- bg-primary_brand">
       <div className="container mx-auto px-4 ">
         <div className="flex justify-center flex-col items-center mb-8 lg:mb-10">
           <h1 className="text-[24px] text-primary-text lg:text-[64px] font-semibold leading-[120%] tracking-normal text-center  mt-12 lg:mt-26 ">
@@ -93,7 +93,6 @@ export default function HeroSection() {
         <div className="overflow-x-auto lg:overflow-x-visible mt-4 lg:mt-6 pb-8 scrollbar-hide">
           <div className="flex lg:flex-wrap lg:justify-center gap-6 lg:gap-8 min-w-max lg:min-w-0">
             {PARTNER_LOGOS.map((logo) => (
-  
               <Image
                 key={logo.src}
                 src={logo.src}

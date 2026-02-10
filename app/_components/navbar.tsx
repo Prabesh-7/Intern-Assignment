@@ -27,15 +27,15 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#"
+                href="/features"
                 className="flex items-center gap-1 text-navbar-text"
               >
                 Features <ChevronDown className="w-4 h-4" />
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-navbar-text">
-                Pricing
+              <Link href="/faq" className="text-navbar-text">
+                faq
               </Link>
             </li>
             <li>

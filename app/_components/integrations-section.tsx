@@ -7,7 +7,7 @@ export default function () {
       <div className="container mx-auto">
         {/* Header */}
         <div className="flex justify-center">
-          <h1 className="w-fit px-6 py-2 rounded-full bg-bg-primary text-sm font-medium mt-8 lg:mt-25">
+          <h1 className="w-fit px-6 py-2 rounded-full bg- bg-primary_brand text-sm font-medium mt-8 lg:mt-25">
             Integratios & Workflow
           </h1>
         </div>

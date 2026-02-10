@@ -49,8 +49,8 @@ export default function Newsletter() {
 
               <Button
                 onClick={handleSubscribe}
-                className="absolute right-1 top-1/2 -translate-y-1/2 cursor-pointer w-24 sm:w-34"
-                variant="subscribe"
+                className="absolute right-1 top-1/2 -translate-y-1/2 cursor-pointer w-20 sm:w-34"
+                variant = 'secondary'
               >
                 Subscribe
               </Button>

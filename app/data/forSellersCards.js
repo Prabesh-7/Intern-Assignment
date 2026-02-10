@@ -1,7 +1,7 @@
-import LogoIcon from "../icons/LogoIcon";
-import MultiChannelIcons from "../icons/MultiChannelIcons";
-import RetailIcon from "../icons/RetailIcon";
-import SmallBusinessIcon from "../icons/SmallBusinessIcon";
+
+
+
+import { LogoIcon, MultiChannelIcons , RetailIcon , SmallBusinessIcon } from "../icons/Icon";
 
 const forSellersCards = [
   {

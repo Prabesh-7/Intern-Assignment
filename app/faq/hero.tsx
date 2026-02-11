@@ -12,7 +12,7 @@ export default function Hero() {
         <div className=" flex justify-center ">
           <h1 className="font-semibold text-[20px] lg:text-4xl lg:text-[64px] leading-[120%] tracking-normal text-center px-4 lg:px-0 text-title_brand">
             Frequently Asked
-            <span className='inline lg:block'>      Questions</span>
+            <span className='inline lg:block'>Questions</span>
       
           </h1>
         </div>

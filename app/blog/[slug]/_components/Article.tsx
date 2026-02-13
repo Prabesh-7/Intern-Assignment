@@ -123,43 +123,60 @@ You need one unified system that acts as your single source of truth.<br /></p
 
      <div className="bg-background_brand w-[376px]  rounded-2xl ">
 
-      <div >
-
-        <aside className="relative px-6 py-6 flex flex-col gap-4 ">
-
-           {/* Decorative left border line */}
-    <div className="absolute left-5 top-6 bottom-6 w-1 bg-gray-200 rounded"></div>
 
 
-            <Button 
-            className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand"
-            variant='ghost'>Use One Central Inventory System</Button>
+      <div>
+  <aside className="relative px-6 py-6 flex flex-col ">
 
-            <Button
-            className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand"
-            variant='ghost'>Use One Central Inventory System</Button>
+    {/*left border*/}
+    <div className="absolute left-6 top-6 bottom-6 w-[1px] bg-gray-200 rounded"></div>
 
+    {/* ACTIVE BUTTON*/}
+    <Button 
+      className="relative text-[16px] font-medium leading-[150%] tracking-normal text-primary_brand justify-start pl-6"
+      variant='ghost'
+    >
+      <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-primary_brand rounded-r"></div>
+      Use One Unified Inventory System
+    </Button>
 
-            <Button 
-            className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand"
-            variant='ghost'>Use One Central Inventory System</Button>
+    {/* Inactive buttons */}
+    <Button
+      className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand justify-start pl-6"
+      variant='ghost'
+    >
+      Enable Real-Time Syncing
+    </Button>
 
+    <Button 
+      className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand justify-start pl-6"
+      variant='ghost'
+    >
+      Set Up Low-Stock Alerts
+    </Button>
 
-            <Button
-            className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand"
-            variant='ghost'>Use One Central Inventory System</Button>
-         
-                      <Button
-            className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand"
-            variant='ghost'>Use One Central Inventory System</Button>
-                        <Button
-            className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand"
-            variant='ghost'>Use One Central Inventory System</Button>
+    <Button
+      className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand justify-start pl-6"
+      variant='ghost'
+    >
+      Organize Products With Clear SKUs 
+    </Button>
+          
+    <Button
+      className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand justify-start pl-6"
+      variant='ghost'
+    >
+      Automate Stock Updates Across Channels
+    </Button>
 
-        </aside>
-
-        
-      </div>
+    <Button
+      className="text-[16px] font-medium leading-[150%] tracking-normal text-title_brand justify-start pl-6"
+      variant='ghost'
+    >
+      Review Stock History Regularly
+    </Button>
+  </aside>
+</div>
 
 
 

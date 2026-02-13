@@ -116,7 +116,7 @@ const FeatureOverview = () => {
         contentRefs.current[index] = el;
       }}
        className={`flex flex-col gap-6 max-w-[534px] min-h-0 ${
-        index === featureoverview.length - 1 ? "mb-25" : ""
+        index === featureoverview.length - 1 ? "mb-20" : ""
       }`}
     >
       <p className="font-medium text-base leading-[150%] text-title_brand">

@@ -37,7 +37,7 @@ export const featureoverview= [
     label: 'Order Management',
     title: 'Manage every order from one clean dashboard',
     details: 'Track and update orders across all channels with complete visibility. Process returns, add notes, and view full timelines — everything stays organized and fast.',
-    image: '/images/Blog1.png',
+    image: '/images/product-mockup.png',
     buttonText: 'View Orders',
   },
 

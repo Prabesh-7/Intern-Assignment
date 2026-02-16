@@ -200,10 +200,10 @@ You need one unified system that acts as your single source of truth.<br /></p
           size="icon"
           variant="ghost"
           className=" bg-background_brand justify-center items-center flex rounded-[8px] ">
-           <Share2
-           className="h-3 w-[10px] text-black"/>
+          <Share2
+          className="h-3 w-[10px] text-black"/>
         </Button>
-       
+    
       </div>
     </div>
 

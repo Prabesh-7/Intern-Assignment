@@ -1,7 +1,7 @@
 
 
 
-import { Icon1, Icon2, Icon3, Icon4 } from "../icons/Icon";
+import { Icon1, Icon2, Icon3, Icon4 , GoogleIcon } from "../icons/Icon";
 
 const Trust = [
   {

@@ -89,6 +89,8 @@
 
   --font-google_sans: var(--font-google_sans), sans-serif;
   --font-google_sans_flex: var(--font-google_sans_flex), sans-serif;
+  --font-inter: var(--font-inter);
+
 
   --animate-accordion-down: accordion-down 0.2s ease-out;
   --animate-accordion-up: accordion-up 0.2s ease-out;

@@ -1,12 +1,23 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import {Google_Sans_Flex} from "next/font/google";
+import {Google_Sans_Flex, Inter} from "next/font/google";
 
 const googleSansFlex = Google_Sans_Flex({
   variable: "--font-google-sans-flex",
   subsets: ["latin"],
+  fallback : ["sans-serif"]
  
 });
+
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  fallback : ["sans-serif"]
+ 
+});
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${googleSansFlex.className} antialiased`}
+        className={`${googleSansFlex.className} antialiased ${inter.variable}`}
       >
         {children}
       </body>
